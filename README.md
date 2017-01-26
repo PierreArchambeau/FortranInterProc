@@ -17,7 +17,7 @@ Server console :
    
     myserver%filename = '\\.\pipe\pipetest'
     call myserver%create_pipe
-    call myserver%read_data(myout,15)
+    call myserver%read_data(myout,4)
     call myserver%close_pipe
     
     end program 
